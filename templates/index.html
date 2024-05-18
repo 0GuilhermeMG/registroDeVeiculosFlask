@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+	<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de registro de veículos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1>Bem-vindo ao sistema de registro de veículos</h1>
+    <nav>
+        <a href="{{ url_for('register') }}" class="button">Registre um veículo</a>
+        <a href="{{ url_for('list_vehicles') }}" class="button">Lista de veículos registrados</a>
+    </nav>
+</body>
+</html>
